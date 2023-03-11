@@ -11,7 +11,7 @@ body {
   margin: 1rem 0 0 1rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 #characters-container div {
@@ -20,9 +20,11 @@ body {
   margin-bottom: 1rem;
 }
 #characters-container div img {
-  width: 50vh;
+  height: 85vh;
   border-radius: 4px;
 }
 #characters-container div p {
-  margin: auto;
+  position: relative;
+  top: 50%;
+  color: #e1e1e6;
 }/*# sourceMappingURL=style.css.map */
